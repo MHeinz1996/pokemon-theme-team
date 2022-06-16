@@ -25,7 +25,7 @@
     <div class="container">
     <div class="row justify-content-center">
         <div class="col-sm">
-            <form class="form-inline" onsubmit="generateTeam()">
+            <form class="form-inline" onsubmit="event.preventDefault(); generateTeam()">
                 <button id="submit-btn">Get a pokemon</button>
             </form>
         </div>
